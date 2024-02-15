@@ -1,0 +1,20 @@
+﻿<Window x:Class="ELP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:elp="clr-namespace:ELP"
+        Title="MainWindow" Height="450" Width="800">
+        
+        <Grid>
+                <Grid.Resources>
+                        <elp:LineValues x:Key="valuesDataSource"/>
+                </Grid.Resources>
+                <Grid.DataContext>
+                        <lvc:CartesianChart>
+                                <!-- Bind to the LineValues property of the DataContext (MainWindow) -->
+                                <lvc:LineSeries Title="Example Line Series" Values="{Binding  {StaticResource valuesDataSource}" LineSmoothness="0.5" />
+                        </lvc:CartesianChart>
+                </Grid.DataContext>
+        </Grid>
+        
+</Window>
