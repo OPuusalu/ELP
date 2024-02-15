@@ -7,14 +7,13 @@
         
         <Grid>
                 <Grid.Resources>
-                        <elp:LineValues x:Key="valuesDataSource"/>
+                        <elp:ViewModel x:Key="l"></elp:ViewModel>
                 </Grid.Resources>
                 <Grid.DataContext>
-                        <lvc:CartesianChart>
-                                <!-- Bind to the LineValues property of the DataContext (MainWindow) -->
-                                <lvc:LineSeries Title="Example Line Series" Values="{Binding  {StaticResource valuesDataSource}" LineSmoothness="0.5" />
-                        </lvc:CartesianChart>
+                        <elp:ViewModel/>
                 </Grid.DataContext>
+                <lvc:CartesianChart Series="{Binding Series}">
+                </lvc:CartesianChart>
         </Grid>
         
 </Window>

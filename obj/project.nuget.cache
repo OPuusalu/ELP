@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "iXe90F0loQj7XJCHwYzOPJ+lXnlEtQGb+LlQhL/06a0cKRPtbkn3DX3SKK2YU8lP12tsjMNPZzVGbR/cFW9KXA==",
+  "dgSpecHash": "ZBv501kQ+6mTJ8J8JTVrYvx8+sg/VkpEvE/i6qCUQw1Us7FaKKskCU+ZAJgJG9kAD/Ffeu21yvHiFOfxvCfF7Q==",
   "success": true,
-  "projectFilePath": "C:\\notUNI\\ELP\\ELP.csproj",
+  "projectFilePath": "C:\\Users\\eston\\RiderProjects\\ELP\\ELP.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\opuusalu\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\opuusalu\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+    "C:\\Users\\eston\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\eston\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
   ],
   "logs": [
     {

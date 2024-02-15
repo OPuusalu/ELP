@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel;
 using LiveCharts;
 using System.Windows;
+using System.Windows.Shapes;
+using LiveCharts.Wpf;
 
 namespace ELP
 {
@@ -15,14 +17,22 @@ namespace ELP
     public class LineValues
     {
         private int[] values = new[] { 15, 20, 10, 30 };
+    }
 
-        public int[] getValues
+    public class ViewModel
+    {
+        public SeriesCollection Series { get; set; }
+
+        public ViewModel()
         {
-            get
+            Series = new SeriesCollection
             {
-                return values;
-            }
+                new LineSeries
+                {
+                    Title = "Series1",
+                    Values = new ChartValues<double> { 4, 6, 5, 3, -3, -1, 2 }
+                }
+            };
         }
-        
     }
 }
