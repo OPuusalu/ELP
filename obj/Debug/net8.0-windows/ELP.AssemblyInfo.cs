@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ELP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a2443c05f0e15f589c55179dc52f04c56cdcf86")]
 [assembly: System.Reflection.AssemblyProductAttribute("ELP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ELP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
